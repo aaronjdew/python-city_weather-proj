@@ -11,6 +11,9 @@ __pycache__
 # sqlite
 .cache.sqlite
 
+# src
+src/__pycache__
+
 # VS Code
 .vscode/
 # Uncomment the following line to ignore all local workspace settings
