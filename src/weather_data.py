@@ -29,13 +29,6 @@ def weather_data(loc: str, lat: float, lng: float, st_date: dt, ed_date: dt) -> 
     # Process location
     response = responses[0]
 
-    print(f"Coordinates: {response.Latitude()}°N {response.Longitude()}°E")
-    print(f"Elevation: {response.Elevation()} m asl")
-    print(
-        f"Timezone: {response.Timezone()}{response.TimezoneAbbreviation()}")
-    print(f"Timezone difference to GMT+0: {response.UtcOffsetSeconds()}s")
-    print(response.TimezoneAbbreviation())
-
     # Process hourly data. The order of variables needs to be the same as requested.
     hourly = response.Hourly()
     hourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()
