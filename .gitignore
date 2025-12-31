@@ -1,0 +1,24 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment (recommended name)
+.venv
+
+# sqllite
+.cache.sqllite
+
+# VS Code
+.vscode/
+# Uncomment the following line to ignore all local workspace settings
+#.vscode/* 
+# except for specific shared settings (like tasks or launch configs)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Operating System files
+Thumbs.db # Windows
