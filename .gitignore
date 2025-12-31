@@ -8,8 +8,8 @@ __pycache__
 # Virtual environment (recommended name)
 .venv
 
-# sqllite
-.cache.sqllite
+# sqlite
+.cache.sqlite
 
 # VS Code
 .vscode/
